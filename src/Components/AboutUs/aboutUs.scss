@@ -1,0 +1,27 @@
+.aboutUs-container {
+  background-color: #509AEE;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+
+}
+.aboutUs-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .aboutUs-header{
+    font-family: "Roboto Light";
+    font-size: 50px;
+    margin-top: 20px;
+    color:#ffffff;
+  }
+  .aboutUs-text {
+    margin: 0 70px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Roboto Light";
+  }
+}

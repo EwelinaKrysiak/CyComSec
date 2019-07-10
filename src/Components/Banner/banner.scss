@@ -1,0 +1,48 @@
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.banner-text-box {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  padding: 0 20px;
+  width: 500px;
+  height: 450px;
+  color: white;
+  font-family: "Roboto Light", sans-serif;
+
+  h1 {
+    font-size: 60px;
+    word-spacing: 1px;
+    font-weight: lighter;
+  }
+
+  span {
+    margin: 20px 0;
+    font-size: 20px;
+    font-family: "Roboto Light", sans-serif;
+  }
+
+  button {
+    width: 220px;
+    justify-items: left;
+    height: 56px;
+    background-color: #B942DB;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    box-shadow: 0 1px 10px #B942DB;
+    font-family: "Roboto Light";
+  }
+
+}
+
+.banner-img {
+  box-shadow: 0 5px 10px #6D7278;
+  border-radius: 20px;
+}

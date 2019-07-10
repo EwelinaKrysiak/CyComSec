@@ -1,0 +1,28 @@
+.container{
+  box-sizing: border-box;
+  width: 100vw;
+  font-family: Roboto, Arial, sans-serif;
+
+}
+
+@mixin linear-gradient($direction, $color-stops...) {
+  background: nth(nth($color-stops, 1), 1);
+  background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
+  background: linear-gradient($direction, $color-stops);
+}
+.container.waves {
+  @include linear-gradient(#2E87EC, #FFFFFF);
+  //height: 650px;
+  //background-color:#2E87EC ;
+  .top-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.container.body {
+  //height: 650px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
