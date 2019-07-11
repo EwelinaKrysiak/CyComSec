@@ -53,7 +53,7 @@ class Form extends Component {
 
                         <form className='form-body' action="">
                             <input type="text" value={this.state.name} onChange={this.handleOnChangeName}/>
-                            <input type="text" value={this.state.name} onChange={this.handleOnChangeEmail}/>
+                            <input type="text" value={this.state.email} onChange={this.handleOnChangeEmail}/>
                             <textarea type="text" value={this.state.message} onChange={this.handleOnChangeMessage}/>
                         </form>
                         <button>Send</button>

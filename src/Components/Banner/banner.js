@@ -8,13 +8,12 @@ function Banner (props){
         <div className='banner-container' id={props.id}>
             <div className="banner-subcontainer">
                 <div className='banner-text-box'>
-                    <h1> Civil Works Partner  </h1>
-                    <span className='text-header'> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.   </span>
-                    <button className='btn-header'> check our services </button>
+                    <h1>Cyber Security Solutions</h1>
+                    <span className='text-header'> An innovative hub for digital solutions in Telco and IT.  Our unique services and solutions can secure Your future and boost Your growth.</span>
                 </div>
 
                 <div className= 'banner-img-box'>
-                    <img className= 'banner-img' src={headerSrc}/>
+                    <img className= 'banner-img' src={headerSrc} alt={'CyComSec Designed by fullvector / Freepik'}/>
                 </div>
             </div>
             

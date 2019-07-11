@@ -1,43 +1,42 @@
 .services-container {
-  margin-top: 70px;
+  margin-top: 150px;
 }
 
 .services-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  margin: 80px 0;
 
   .services-img-box {
     width: 500px;
-    height: 350px;
+    height: 333px;
     position: relative;
-    //&::after {
-    //  content: '';
-    //  width: 200px;
-    //  height: 200px;
-    //  border-radius: 50%;
-    //  border: 2px dashed #2B328B;
-    //  position: absolute;
-    //  left: 370px;
-    //  bottom: 80px;
-    //}
-    //&::before {
-    //  content: '';
-    //  width: 150px;
-    //  height: 150px;
-    //  border-radius: 50%;
-    //  border: 2px dot-dash #2B328B;
-    //  position: absolute;
-    //  left: 400px;
-    //  top: 90px;
-    //}
+  }
+
+  div#img-before {
+    position: relative;
+    z-index: 10;
+    &::before{
+      content:'';
+      width: 120px;
+      height: 100px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      background-image: url("../../Images/grafiki/box2.png");
+      z-index: 500;
+      left: 60px;
+      top: 60px;
+    }
   }
 
   .services-img {
     width: 500px;
     height: 333px;
     box-shadow: 0 5px 10px #6D7278;
-    border-radius: 20px;
+    border-radius: 5px;
     overflow: hidden;
   }
 }
@@ -49,19 +48,22 @@
   justify-content: left;
   align-content: center;
   flex-direction: column;
+  margin-bottom: 20px;
 
   h1 {
-    font-family: "Roboto Medium";
+    font-family: "Roboto Light";
     font-size: 40px;
-    text-transform: uppercase;
     color: #383D46
   }
 
   p {
     font-family: "Roboto Light";
-    font-size: 16px;
+    font-size: 20px;
     color: #95979A;
     margin: 20px 0;
+    span{
+      font-size: 34px;
+    }
   }
 
   button {
@@ -72,27 +74,48 @@
     border: none;
     font-size: 16px;
     font-family: "Roboto Light";
-    color: #ffffff;
+    color: #383D46;
     text-transform: uppercase;
-    box-shadow: 0 5px 10px #6D7278;
+    box-shadow: 0 5px 5px #6D7278;
     transition: all 0.5s;
     cursor: pointer;
     outline: none;
+    margin-top: 20px;
+    transition: all 1s;
 
     &:hover {
-      background-color: #B942DB;
+      background-color: #241269;
+      color: #FFFFFF;
     }
   }
 }
 
-div.el-hidden{
-    display: none;
-}
-
-@media (max-width: 760px) {
+div.el-shown{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 0;
+  font-family: "Roboto Light";
+  font-size: 16px;
+  color: #383D46;
+  padding: 40px 40px;
+  margin: 50px 0;
+  padding-left: 50px;
+  background-color: #36BBBB;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+  div{
+    margin: 10px 0;
+    transition: all 0.5s;
+    span{
+      font-weight: bolder;
+    }
+  }
+
+
+
+}
+div.el-hidden{
+  display: none;
 }

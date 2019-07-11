@@ -30,6 +30,7 @@
   width: 100%;
   overflow: hidden;
   height: 100%;
+  opacity: 0.8;
   //bottom: 90px;
   //background-image: linear-gradient(to top, #c8e0fa 100%, #c8e0fa 30%);
 
@@ -59,18 +60,18 @@
 }
 .waveAnimation .waveTop {
   //display: none;
-  animation: move_wave 150s ease-in-out infinite;
+  animation: move_wave 200s ease-in-out infinite;
 }
 .waveMiddle {
   //background-size: 50% 150px;
 }
 .waveAnimation .waveMiddle {
   //display: none;
-  animation: move_wave 120s ease-in-out infinite;
+  animation: move_wave 170s ease-in-out infinite;
 }
 .waveBottom {
   //background-size: 50% 120px;
 }
 .waveAnimation .waveBottom {
-  animation: move_wave 100s ease-in-out infinite;
+  animation: move_wave 160s ease-in-out infinite;
 }

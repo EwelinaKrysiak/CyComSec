@@ -15,18 +15,16 @@ function App() {
             <div className='container waves'>
 
                 <div className='top-container'>
-                    <Header id=''/>
+                    <Header/>
                     <Banner id='home'/>
                 </div>
-
 
             </div>
             <div className='container body'>
                 <Services id='services'/>
-                <AboutUs id='aboutUs'/>
-                <Form id='contact'/>
             </div>
-
+            <AboutUs id='aboutUs'/>
+            <Form id='contact'/>
             <Footer/>
 
         </div>

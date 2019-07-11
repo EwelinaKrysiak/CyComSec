@@ -8,7 +8,7 @@ import {pageHeader} from "./sticky";
 class Header extends Component {
     state = {
         scrolling: false
-    }
+    };
     componentDidMount() {
         pageHeader()
 
@@ -22,23 +22,21 @@ class Header extends Component {
         const {id} = this.props;
 
         return (
-            <div className='header-container'  offset='150' onScroll={this.handleScroll}>
-                <div className='header-img'>
-                    <AnchorLink href='#page-top-'> </AnchorLink>
-                </div>
+            <div className='header-container'>
+                    <AnchorLink href='#page-top' offset={200}> <div className='header-img'/> </AnchorLink>
                 <div className='header-menu'>
                     <ul className='menu'>
                         <li className='menu-el'>
-                            <AnchorLink href='#home'>Home</AnchorLink>
+                            <AnchorLink href='#home' offset={100}>Home</AnchorLink>
                         </li>
                         <li className='menu-el'>
-                            <AnchorLink href='#services' offset={150}>Services</AnchorLink>
+                            <AnchorLink href='#services' offset={100}>Services</AnchorLink>
                         </li>
                         <li className='menu-el'>
-                            <AnchorLink href='#aboutUs'>About Us</AnchorLink>
+                            <AnchorLink href='#aboutUs' offset={40}>About Us</AnchorLink>
                         </li>
                         <li className='menu-el'>
-                            <AnchorLink href='#contact'>Contact</AnchorLink>
+                            <AnchorLink href='#contact' offset={-20}>Contact</AnchorLink>
                         </li>
                     </ul>
                 </div>

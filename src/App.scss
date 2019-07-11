@@ -11,7 +11,7 @@
   background: linear-gradient($direction, $color-stops);
 }
 .container.waves {
-  @include linear-gradient(#2E87EC, #FFFFFF);
+  @include linear-gradient(#2E87EC 70%, #FFFFFF);
   height: 550px;
   //background-color:#2E87EC ;
   .top-container {
