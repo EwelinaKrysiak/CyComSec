@@ -2,23 +2,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+
+  h1{
+    color:#383D46;
+    font-size: 50px;
+  }
+
   .form-subcontainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1000px;
-
+    width: 1200px;
+    box-shadow: #6D7278;
   }
-
 
 }
 
 .form-box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
 
   .form-header {
     font-family: "Roboto Light";
@@ -31,43 +37,77 @@
   .form-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 250px;
-    width: 600px;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 300px;
+    width: 550px;
 
     input {
       width: 500px;
-      height: 50px;
-      background-color: #241269;
+      height: 150px;
+      border: 1px solid #95979A;
       border-radius: 10px;
-      border: none;
       margin: 10px 0;
       padding: 0 20px;
-      color: #ffffff;
+      color: #383D46;
       font-family: "Roboto Light";
       font-size: 16px;
+      outline: none;
+      &:hover{
+        cursor: pointer;
+      }
+      &:focus {
+        background-color: #2E87EC;
+        border: none;
+      }
+    }
+    textarea{
+      width: 500px;
+      height: 200px;
+      padding-top: 10px;
+      border: 1px solid #95979A;
+      border-radius: 10px;
+      margin: 10px 0;
+      padding: 20px 20px;
+      color: #383D46;
+      font-family: "Roboto Light";
+      font-size: 16px;
+      outline: none;
+      &:hover{
+        cursor: pointer;
+      }
+      &:focus {
+        background-color: #2E87EC;
+        border: none;
+      }
     }
   }
   button{
     width: 200px;
     height: 50px;
-    background-color: #241269;
+    background-color: #2E87EC;
     border-radius: 10px;
-    border: 1px solid #241269;
-    box-shadow: 0 1px 5px #241269;
-    color: #ffffff;
+    border: none;
+    color: #FFFFFF;
     font-family: "Roboto Light";
     font-size: 20px;
-    margin-bottom: 20px;
+    margin: 20px 10px;
+    padding: 0 0;
+    outline: none;
+    &:hover{
+      cursor: pointer;
+      outline: none;
+    }
   }
 
 }
   .form-contact {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     font-size: 20px;
     color: #95979A;
+    margin: 0 5px;
   p{
     display: flex;
     flex-direction: column;
@@ -75,10 +115,12 @@
     .form-name{
       text-transform: uppercase;
       font-family: "Roboto Medium";
+      color:#383D46
     }
-
 
 }
 .form-partners{
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }

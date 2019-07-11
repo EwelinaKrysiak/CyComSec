@@ -1,13 +1,23 @@
 .banner-container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  //margin-bottom: -125px
+}
 
+.banner-subcontainer {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.form-box {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
 }
 
 .banner-text-box {
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
   padding: 0 20px;
   width: 500px;
   height: 450px;
@@ -18,31 +28,53 @@
     font-size: 60px;
     word-spacing: 1px;
     font-weight: lighter;
+    margin-top: 15px;
   }
 
   span {
-    margin: 20px 0;
+    margin: 30px 0;
     font-size: 20px;
     font-family: "Roboto Light", sans-serif;
+
   }
 
   button {
     width: 220px;
-    justify-items: left;
     height: 56px;
     background-color: #B942DB;
-    border-radius: 20px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 25px;
     border: none;
     font-size: 16px;
     color: #ffffff;
     text-transform: uppercase;
-    box-shadow: 0 1px 10px #B942DB;
+    box-shadow: 0 1px 5px lightgray;
     font-family: "Roboto Light";
-  }
+    margin: 30px 0;
+    transition: all 1s;
+    cursor: pointer;
+    outline: none;
+    &:hover{
+      background-color: #36BBBB;
+    }
 
+
+  }
 }
 
 .banner-img {
   box-shadow: 0 5px 10px #6D7278;
   border-radius: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width:760px) {
+  .banner-subcontainer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -1,20 +1,49 @@
 div.header-container {
+  //height: 85px;
   display: flex;
   justify-content: space-between;
   align-content: center;
+
 }
+
+.sticky {
+  position: fixed;
+  background: #241269;
+  width: 100vw;
+  box-shadow: 0 1px 3px rgba(black, 0.4);
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  height: 50px;
+  transition: all 0.5s;
+  .header-img {
+    height: 30px;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("../../Images/logo/logoWhite.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  ul.menu {
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+
 
 div.header-img {
   width: 260px;
   height: 50px;
   padding: 20px 20px;
-  background-image: url("../../Images/logo/logoBlue.png");
+  background-image: url("../../Images/logo/logo granat-33.svg");
   background-size: contain;
   background-repeat: no-repeat;
   box-sizing: border-box;
   margin-left: 20px;
   margin-top: 20px;
-  }
+}
 
 ul.menu {
   display: flex;
@@ -24,16 +53,42 @@ ul.menu {
   margin-top: 20px;
   width: 415px;
   height: 50px;
-  li{
+
+  li {
     list-style: none;
     //margin: 0 15px;
     font-family: "Roboto Light", sans-serif;
     font-size: 18px;
 
-    a{
-      color: #ffffff;
+    a {
       text-decoration: none;
-    };
+      position: relative;
+      display: block;
+      color: rgba(#fff, 0.7);
+      padding: 5px 15px;
+      transition: 0.5s all;
+
+      &:hover {
+        font-weight: bold;
+        cursor: pointer;
+
+        &::before {
+          content: '';
+          position: absolute;
+          left: 50%;
+          right: 50%;
+          bottom: 0;
+          background: #fff;
+          height: 2px;
+          transition: all 1s;
+        }
+      }
+    }
+
+    a:hover:before {
+      left: 0;
+      right: 0;
+    }
   }
 
 }

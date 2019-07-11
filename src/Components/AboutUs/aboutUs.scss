@@ -1,9 +1,5 @@
 .aboutUs-container {
-  background-color: #509AEE;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
+  padding-top: 10px;
 
 }
 .aboutUs-section{
@@ -11,6 +7,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("../../Images/grafiki/fala biala.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #509AEE;
+  opacity: 0.8;
+  margin-top: 80px;
+  height: 400px;
+  border-radius: 20px;
 
   .aboutUs-header{
     font-family: "Roboto Light";
