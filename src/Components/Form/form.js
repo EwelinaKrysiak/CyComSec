@@ -32,10 +32,10 @@ class Form extends Component {
                 <div className='form-subcontainer'>
                     <div className='form-contact'>
                         <p>
-                            <span className='form-name'>Karol Henger - Managing Director</span>
+                            <span className='form-name'>Karol Henger - CEO</span>
                             <span>karol.henger@cycommsec.com</span>
                         </p>
-                        <p><span className='form-name'>Mariusz Sulik - CEO</span>
+                        <p><span className='form-name'>Mariusz Sulik - COO</span>
                             <span>mariusz.sulik@cycommsec.com</span>
                         </p>
                         <p>

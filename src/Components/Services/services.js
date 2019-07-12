@@ -69,14 +69,14 @@ class Services extends Component {
                             communicated, investigated and reported.
                         </div>
 
-                        <div> Polish cybersecurity system for <span>SCADA/OT</span> networks, built in cooperation with
+                        <div> Polish cyber security system for <span>SCADA/OT</span> networks, built in cooperation with
                             recognized national scientific units and data centres. Using the latest technological
                             solutions, it allows to detect anomalies and cyber threats in industrial automation networks
                             before they make irreparable damage.
                         </div>
 
                         <div>
-                            An hoc or periodic Security Audits and Penetration Tests are recommended and advised
+                            Ad hoc or periodic Security Audits and Penetration Tests are recommended and advised
                             assessment of customer’s IT environment components. Depending on the scope can be executed
                             automatically or manually and uncover physical, software and human vulnerabilities
                         </div>
