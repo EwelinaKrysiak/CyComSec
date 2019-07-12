@@ -34,15 +34,20 @@
   align-items: center;
   width: 1200px;
 
+  .abs-to-left {
+    position: absolute;
+    left: 0;
+  }
+
   .aboutUs-text {
     display: block;
     position: absolute;
     color: #383D46;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "Roboto Light";
-    width: 800px;
-    left:40px;
-    top: 2335px;
+    width: 633px;
+    right:-200px;
+    top: 172px;
     background-color: #00B8C3;
     padding: 30px 30px;
     z-index: 300;

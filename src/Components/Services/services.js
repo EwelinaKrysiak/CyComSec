@@ -45,7 +45,7 @@ class Services extends Component {
                     <div className="text-box">
                         <h1>Cyber Security</h1>
                         <p><span> mUnit / SIEM / SOC / SCADvance / PenTests / Audits </span> <br/>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+
                         </p>
                         <button onClick={() => this.toggleService("cyberSec")}> More Info</button>
                     </div>
@@ -88,7 +88,7 @@ class Services extends Component {
                     <div className="text-box">
                         <h1>Telecomunication</h1>
                         <p><span>Design / Planning / CW / Deploy / In/Out Door DAS /PM</span> <br/>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+
                         </p>
                         <button onClick={() => this.toggleService("tele")}> More Info</button>
                     </div>
@@ -151,9 +151,7 @@ class Services extends Component {
                     <div className="text-box">
                         <h1>Digital Transformation</h1>
                         <p><span>Ind 4.0 / IoT / RPA / Smart Coverage </span> <br/>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                            dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet,
-                            consectetuer adipiscing elit.
+
                         </p>
                         <button onClick={() => this.toggleService("digitalization")}> More Info</button>
                     </div>
