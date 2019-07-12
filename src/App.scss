@@ -1,4 +1,4 @@
-.container{
+.container {
   box-sizing: border-box;
   width: 100vw;
   font-family: Roboto, Arial, sans-serif;
@@ -10,9 +10,12 @@
   background: -webkit-linear-gradient(legacy-direction($direction), $color-stops);
   background: linear-gradient($direction, $color-stops);
 }
+
 .container.waves {
-  @include linear-gradient(#2E87EC 70%, #FFFFFF);
-  height: 550px;
+  //@include linear-gradient(#2E87EC,#2E87EC, #FFFFFF);
+  height: 650px;
+  background-image: linear-gradient(to bottom, #2e87ec, #2e87ec, #2e87ec, #2e87ec, #2e87ec, #378bec, #408fed, #4893ed, #599ced, #69a5ed, #78aeed, #88b7ec);
+  //background-image: linear-gradient(to bottom, #2e87ec, #2e87ec, #2e87ec, #2e87ec, #2e87ec, #558fed, #6f98ef, #84a1f0, #abb6f3, #cbcdf7, #e7e5fb, #ffffff);
   //background-color:#2E87EC ;
   .top-container {
     width: 1200px;

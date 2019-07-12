@@ -33,10 +33,10 @@ class Header extends Component {
                             <AnchorLink href='#services' offset={100}>Services</AnchorLink>
                         </li>
                         <li className='menu-el'>
-                            <AnchorLink href='#aboutUs' offset={40}>About Us</AnchorLink>
+                            <AnchorLink href='#aboutUs' offset={30}>About Us</AnchorLink>
                         </li>
                         <li className='menu-el'>
-                            <AnchorLink href='#contact' offset={-20}>Contact</AnchorLink>
+                            <AnchorLink href='#contact' offset={40}>Contact</AnchorLink>
                         </li>
                     </ul>
                 </div>

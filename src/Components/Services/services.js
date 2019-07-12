@@ -152,7 +152,8 @@ class Services extends Component {
                         <h1>Digital Transformation</h1>
                         <p><span>Ind 4.0 / IoT / RPA / Smart Coverage </span> <br/>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
-                            dolor.
+                            dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit.
                         </p>
                         <button onClick={() => this.toggleService("digitalization")}> More Info</button>
                     </div>

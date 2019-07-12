@@ -10,14 +10,14 @@
   }
 }
 .waveWrapper {
-  //overflow: hidden;
-  ////position: absolute;
-  ////left: 0;
-  ////right: 0;
-  ////bottom: 0;
-  ////top: 0;
-  //margin: auto;
-  height: 250px;
+  overflow: hidden;
+  //position: absolute;
+  //left: 0;
+  //right: 0;
+  //bottom: 0;
+  //top: 0;
+  margin: auto;
+  height: 255px;
   position: relative;
   bottom: 135px;
   width: 200vw;
@@ -37,11 +37,11 @@
 }
 .bgTop {
   z-index: 15;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 .bgMiddle {
   z-index: 10;
-  opacity: 0.75;
+  opacity: 0.9;
 }
 .bgBottom {
   z-index: 5;
