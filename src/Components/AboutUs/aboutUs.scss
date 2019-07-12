@@ -13,15 +13,17 @@
   background-repeat: no-repeat;
   background-position: top;
   background-color: #241269;
-  padding: 30px 0;
+  //padding: 30px 0;
   //height: 400px;
   border-radius: 5px;
+  padding-bottom: 50px;
 
   .aboutUs-header{
     font-family: "Roboto Light";
     font-size: 50px;
-    margin-top: 20px;
+    margin: 20px 0;
     color:#FFFFFF;
+
   }
 
 }
@@ -33,11 +35,18 @@
   width: 1200px;
 
   .aboutUs-text {
-    //margin: 0 70px;
-    width: 600px;
-    //color: #ffffff;
-    //font-size: 20px;
-    //font-family: "Roboto Light";
+    display: block;
+    position: absolute;
+    color: #383D46;
+    font-size: 20px;
+    font-family: "Roboto Light";
+    width: 800px;
+    left:40px;
+    top: 2335px;
+    background-color: #00B8C3;
+    padding: 30px 30px;
+    z-index: 300;
+    border-radius: 5px;
   }
   .aboutUs-logo {
     background-image: url("../../Images/grafiki/contact.png");
@@ -50,30 +59,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
+    z-index: 0;
 
-    &::before{
-      content:"For many years we have been professionally engaged in engineering
-                        solutions. For us it means not only the successful delivery of projects and its full absorbsion
-                        by the customer but also doing our best to foresee the potential issues our clients may have in
-                        future and address them in advance. That's why when choosing the solutions, we pay attention to
-      what their purpose is, who they are targeted at, and how they fit to the foreseen future goals
-                        and needs.
-                        'A/'
-      The main asset of CyCommSec are people and their competences and capabilities. Secondly we
-      carefully choose our partners. It leads to sustainable business relations with our clients with
-      mutual growth. We look for solution until it rightly supports customer, us and the environment
-      we live in.";
-      display: block;
-      position: absolute;
-      color: #383D46;
-      font-size: 20px;
-      font-family: "Roboto Thin";
-      width: 800px;
-      left:-600px;
-      bottom: 60px;
-      background-color: #00B8C3;
-      padding: 30px 30px;
-    }
+
 
   }
 }
