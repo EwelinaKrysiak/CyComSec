@@ -13,12 +13,10 @@ function App() {
         <div className="App">
             <div  id="page-top"/>
             <div className='container waves'>
-
                 <div className='top-container'>
                     <Header/>
                     <Banner id='home'/>
                 </div>
-
             </div>
             <div className='container body'>
                 <Services id='services'/>

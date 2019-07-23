@@ -10,12 +10,8 @@
   }
 }
 .waveWrapper {
+  display: none;
   overflow: hidden;
-  //position: absolute;
-  //left: 0;
-  //right: 0;
-  //bottom: 0;
-  //top: 0;
   margin: auto;
   height: 255px;
   position: relative;
@@ -31,8 +27,6 @@
   overflow: hidden;
   height: 100%;
   opacity: 0.8;
-  //bottom: 90px;
-  //background-image: linear-gradient(to top, #c8e0fa 100%, #c8e0fa 30%);
 
 }
 .bgTop {

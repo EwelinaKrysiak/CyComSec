@@ -22,8 +22,9 @@ class Form extends Component {
     handleOnChangeMessage = (e) => {
         this.setState({message: e.target.value})
     };
+
     render() {
-    const {id} = this.props;
+        const {id} = this.props;
 
         return (
 
@@ -31,33 +32,38 @@ class Form extends Component {
                 <h1 className='form-header'>Contact Us</h1>
                 <div className='form-subcontainer'>
                     <div className='form-contact'>
+                        <div className='names-contact'>
+                            <p>
+                                <span className='form-name'>Karol Henger - CEO</span>
+                                <span>karol.henger@cycommsec.com</span>
+                            </p>
+                            <p><span className='form-name'>Mariusz Sulik - COO</span>
+                                <span>mariusz.sulik@cycommsec.com</span>
+                            </p>
+                        </div>
+                        <div className='form-address'>
                         <p>
-                            <span className='form-name'>Karol Henger - CEO</span>
-                            <span>karol.henger@cycommsec.com</span>
-                        </p>
-                        <p><span className='form-name'>Mariusz Sulik - COO</span>
-                            <span>mariusz.sulik@cycommsec.com</span>
-                        </p>
-                        <p>
-                            <span className='footer-addres'>Ul. Orzycka 48/156</span>
+                            <span className='footer-address'> CyCommSec Sp. z o.o.</span>
+                            <span>Ul. Orzycka 48/156</span>
                             <span>04-569 Warszawa</span>
-                            <span>NIP 000-000-00-00</span>
+                            <span>NIP 521-368-90-34</span>
                         </p>
+                        </div>
                         <div className='form-partners'>
                             <span>Our Partner</span>
                             <img src={partnerImg} alt=""/>
                         </div>
                     </div>
 
-                    <div className='form-box'>
+                    {/*<div className='form-box'>*/}
 
-                        <form className='form-body' action="">
-                            <input type="text" value={this.state.name} onChange={this.handleOnChangeName}/>
-                            <input type="text" value={this.state.email} onChange={this.handleOnChangeEmail}/>
-                            <textarea type="text" value={this.state.message} onChange={this.handleOnChangeMessage}/>
-                        </form>
-                        <button>Send</button>
-                    </div>
+                    {/*    <form className='form-body' action="">*/}
+                    {/*        <input type="text" value={this.state.name} onChange={this.handleOnChangeName}/>*/}
+                    {/*        <input type="text" value={this.state.email} onChange={this.handleOnChangeEmail}/>*/}
+                    {/*        <textarea type="text" value={this.state.message} onChange={this.handleOnChangeMessage}/>*/}
+                    {/*    </form>*/}
+                    {/*    <button>Send</button>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         )

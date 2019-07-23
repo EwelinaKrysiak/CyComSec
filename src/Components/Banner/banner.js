@@ -9,7 +9,7 @@ function Banner (props){
             <div className="banner-subcontainer">
                 <div className='banner-text-box'>
                     <h1>Cyber Security Solutions</h1>
-                    <span className='text-header'> An innovative hub for digital solutions in Telco and IT.  Our unique services and solutions can secure Your future and boost Your growth.</span>
+                    <span className='text-header'>An innovative hub for digital solutions in Telco and IT.  Our unique services and solutions can secure Your future and boost Your growth.</span>
                 </div>
 
                 <div className= 'banner-img-box'>

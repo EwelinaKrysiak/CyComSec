@@ -1,5 +1,4 @@
 
-
 .container {
   box-sizing: border-box;
   width: 100vw;
@@ -7,20 +6,18 @@
 }
 
 .container.waves {
-  height: 650px;
-  background-image: linear-gradient(to bottom, #2e87ec, #2e87ec, #2e87ec, #2e87ec, #2e87ec, #378bec, #408fed, #4893ed, #599ced, #69a5ed, #78aeed, #88b7ec);
+  background-image: linear-gradient(to bottom, #2e87ec, #2e87ec, #2e87ec, #2e87ec, #2e87ec, #558fed, #6f98ef, #84a1f0, #abb6f3, #cbcdf7, #e7e5fb, #ffffff);
   .top-container {
     max-width: 1200px;
     margin: 0 auto;
     width:90%;
+    height: auto;
   }
 }
 
 .container.body {
-  //height: 650px;
   max-width: 1200px;
   margin: 0 auto;
-  //width: 90%;
 }
 
 @media (max-width: 1000px) {
@@ -34,4 +31,7 @@
     display: none;
   }
 }
+
+
+
 
