@@ -19,7 +19,7 @@
   width: 80%;
   padding: 0 20px;
   color: white;
-  font-family: "Roboto Light", sans-serif;
+  font-family: "Roboto Light",robotolight, sans-serif;
 
   h1 {
     font-size: 3em;
@@ -30,7 +30,7 @@
 
   span {
     font-size: 1.5em;
-    font-family: "Roboto Light", sans-serif;
+    font-family: "Roboto Light", robotolight, sans-serif;
 
   }
 }
@@ -42,7 +42,7 @@
   max-width: 100%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1030px) {
   .banner-subcontainer {
     padding-top: 20px;
   }
@@ -50,6 +50,7 @@
   .banner-text-box {
     margin-bottom: 120px;
     width: 100%;
+    padding-top: 50px;
 
     h1 {
       font-size: 30px;

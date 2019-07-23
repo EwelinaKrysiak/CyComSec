@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import "./form.scss";
-import partnerImg from "../../Images/logo/IMG_1351.png"
 
 
 class Form extends Component {
@@ -32,27 +31,28 @@ class Form extends Component {
                 <h1 className='form-header'>Contact Us</h1>
                 <div className='form-subcontainer'>
                     <div className='form-contact'>
-                        <div className='names-contact'>
+                        <div className='names-contact space'>
                             <p>
-                                <span className='form-name'>Karol Henger - CEO</span>
+                                <span className='form-bold'>Karol Henger - CEO</span>
                                 <span>karol.henger@cycommsec.com</span>
                             </p>
-                            <p><span className='form-name'>Mariusz Sulik - COO</span>
+                            <p><span className='form-bold'>Mariusz Sulik - COO</span>
                                 <span>mariusz.sulik@cycommsec.com</span>
                             </p>
                         </div>
-                        <div className='form-address'>
+                        <div className='address-contact space'>
                         <p>
-                            <span className='footer-address'> CyCommSec Sp. z o.o.</span>
+                            <span className='form-bold'>CyCommSec Sp. z o.o.</span>
+                            <br/>
                             <span>Ul. Orzycka 48/156</span>
                             <span>04-569 Warszawa</span>
                             <span>NIP 521-368-90-34</span>
                         </p>
                         </div>
-                        <div className='form-partners'>
-                            <span>Our Partner</span>
-                            <img src={partnerImg} alt=""/>
-                        </div>
+                        {/*<div className='partners-contact space'>*/}
+                        {/*    <span className='form-bold'>Our Partner:</span>*/}
+                        {/*    <img src={partnerImg} alt=""/>*/}
+                        {/*</div>*/}
                     </div>
 
                     {/*<div className='form-box'>*/}

@@ -13,7 +13,7 @@
   padding-bottom: 50px;
 
   .aboutUs-header{
-    font-family: "Roboto Light";
+    font-family: "Roboto Light",robotolight,sans-serif;
     font-size: 50px;
     margin: 20px 0;
     color:#FFFFFF;
@@ -31,7 +31,7 @@
   .aboutUs-text {
     color: #383D46;
     font-size: 16px;
-    font-family: "Roboto Light", sans-serif;
+    font-family: "Roboto Light", robotolight, sans-serif;
     width: 50%;
     background-color: #00B8C3;
     padding: 30px 30px;
@@ -46,6 +46,24 @@
       max-width: 600px;
       width: 100%;
       height: auto;
+    }
+  }
+}
+
+@media (max-width: 1030px) {
+  .aboutUs-section{
+    padding-bottom: 30px;
+    .aboutUs-header{
+      font-size: 35px;
+    }
+  }
+  .aboutUs-subcontainer{
+    flex-direction: column;
+    .aboutUs-text {
+      font-size: 12px;
+      font-family: "Roboto Light", robotolight, sans-serif;
+      width: 50%;
+      margin: 15px 0;
     }
   }
 }
