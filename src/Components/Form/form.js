@@ -27,7 +27,7 @@ class Form extends Component {
 
         return (
 
-            <div className='form-container' id={id} offset='100'>
+            <div className='form-container' id={id}>
                 <h1 className='form-header'>Contact Us</h1>
                 <div className='form-subcontainer'>
                     <div className='form-contact'>
@@ -45,7 +45,7 @@ class Form extends Component {
                             <span className='form-bold'>CyCommSec Sp. z o.o.</span>
                             <br/>
                             <span>Ul. Orzycka 48/156</span>
-                            <span>04-569 Warszawa</span>
+                            <span>02-695 Warszawa</span>
                             <span>NIP 521-368-90-34</span>
                         </p>
                         </div>

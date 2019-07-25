@@ -3,9 +3,6 @@
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
-  background-image: url("../../Images/grafiki/cool-background.png");
-  background-repeat: repeat-x;
-  background-size: contain;
 
   h1 {
     color: #383D46;
@@ -39,11 +36,6 @@
 
   }
 
-  //.partners-contact {
-  //  flex-direction: column;
-  //  justify-content: center;
-  //
-  //}
 }
 
 @media (max-width: 1030px) {

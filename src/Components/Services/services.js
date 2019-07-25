@@ -36,7 +36,7 @@ class Services extends Component {
 
         return (
 
-            <div className='services-container' id={id} offset='150'>
+            <div className='services-container' id={id}>
                 <div className='services-section'>
                     <div id="img-before">
                         <img className='services-img' src={servicesImg2}
