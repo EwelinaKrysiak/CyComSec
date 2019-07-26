@@ -44,7 +44,7 @@ class Form extends Component {
                         <p>
                             <span className='form-bold'>CyCommSec Sp. z o.o.</span>
                             <br/>
-                            <span>Ul. Orzycka 48/156</span>
+                            <span>Ul. Orzycka 4/156</span>
                             <span>02-695 Warszawa</span>
                             <span>NIP 521-368-90-34</span>
                         </p>
